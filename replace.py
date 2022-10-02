@@ -1,9 +1,11 @@
+
 from dataclasses import replace
 from itertools import combinations
 import re
 try:
     print("RUN.... Replace.py file")
-    l = {"(0X0)":"(0)",
+    l = {
+   "(0X0)":"(0)",
 		"(0X1)":"(1)",
 		"(0X2)":"(2)",
 		"(0X3)":"(3)",
@@ -4743,7 +4745,7 @@ try:
 		"0X62E}":"1582}",
 		"0X62F}":"1583}",
 		"0X13C5}":"5061}",
-		"0XCCB2D}":"838445}",    
+		"0XCCB2D}":"838445}", 
         "_0X":"A",
         "\X20":" ",
         "\X22":"'"
@@ -4765,3 +4767,4 @@ try:
 except Exception as e:   
         print("ERROR FROM FILE NAME replace.py: ")  
         print(e)
+   
