@@ -69,7 +69,9 @@ try:
    replace_down = """ 
         "_0X":"A",
         "\X20":" ",
-        "\X22":"'"
+        '\X22':'"',
+        '\X27':'"',
+        "\X0A":" "
 }
 
     #DATA INPUT FROM DATA.JSON FILE
